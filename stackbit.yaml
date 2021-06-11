@@ -1,0 +1,57 @@
+stackbitVersion: ~0.3.0
+dataDir: src/html/data
+models:
+  data:
+    type: data
+    label: Data
+    file: data.json
+    fields:
+      - type: string
+        name: author
+        label: Author
+      - type: string
+        name: email
+        label: Email
+      - type: object
+        name: links
+        label: Links
+        fields:
+          - type: string
+            name: buy
+            label: Buy
+          - type: string
+            name: github
+            label: Github
+          - type: string
+            name: docs
+            label: Docs
+          - type: string
+            name: blog
+            label: Blog
+          - type: string
+            name: appseed
+            label: Appseed
+          - type: string
+            name: generator
+            label: Generator
+          - type: string
+            name: facebook
+            label: Facebook
+          - type: string
+            name: facebook-group
+            label: Facebook Group
+          - type: string
+            name: twitter
+            label: Twitter
+          - type: string
+            name: instagram
+            label: Instagram
+          - type: string
+            name: support
+            label: Support
+          - type: string
+            name: discord
+            label: Discord
+      - type: string
+        name: LAST_KEY
+        label: LAST KEY
